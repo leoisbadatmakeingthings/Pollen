@@ -23,6 +23,21 @@ echo '{
   "URLBlocklist": [],
   "SystemFeaturesDisableList": [],
   "EditBookmarksEnabled": true,
+  "DeviceMinimumVersion": {
+ "requirements": [
+  {
+   "aue_warning_period": 14,
+   "chromeos_version": "11316.165.0",
+   "warning_period": 0
+  },
+  {
+   "aue_warning_period": 21,
+   "chromeos_version": "11316.165.0",
+   "warning_period": 10
+  }
+ ],
+ "unmanaged_user_restricted": false
+},
   "ChromeOsMultiProfileUserBehavior": "unrestricted",
   "DeveloperToolsAvailability": 1,
   "DefaultPopupsSetting": 1,
